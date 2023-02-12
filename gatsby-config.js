@@ -13,7 +13,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: '@epicdesignlabs/gatsby-source-bigcommerce',
+      resolve: 'gatsby-source-bigcommerce-v2',
       options: {
         auth: {
           client_id: process.env.BC_API_CLIENT_ID,
